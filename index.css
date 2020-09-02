@@ -1,0 +1,11 @@
+@import url(./vendor/normalize.css);
+
+@import url(./blocks/page/page.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+
+@import url(./blocks/lang/lang.css);
+@import url(./blocks/lang/__item/lang__item.css);
+@import url(./blocks/lang/__button/lang__button.css);
+@import url(./blocks/lang/__button-label/lang__button-label.css);

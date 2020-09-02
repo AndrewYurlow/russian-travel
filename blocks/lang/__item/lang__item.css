@@ -1,0 +1,9 @@
+.lang__item{
+    float: left;
+    display: inline-block;
+    margin-top: 18px;
+}
+
+.lang__item:first-child{
+    margin-right: 18px;
+}
