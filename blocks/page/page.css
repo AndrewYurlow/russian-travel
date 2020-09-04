@@ -11,8 +11,8 @@
 }
 
 @font-face{
-  font-family: 'Inter-SemiBold';
-  src: url("../../fonts/Inter-SemiBold.woff") format("woff");
+  font-family: 'Inter-Bold';
+  src: url("../../fonts/Inter-Bold.woff") format("woff");
   font-weight: bold;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
