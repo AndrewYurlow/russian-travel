@@ -1,0 +1,6 @@
+.gallery{
+    width: calc(100% - 96px);
+    margin-top: 92px;
+
+    border: 1px solid red;
+}
