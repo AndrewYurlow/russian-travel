@@ -1,0 +1,12 @@
+.main__description{
+  max-width: 640px;
+  font-family: 'Inter-Regular';
+  font-size: 1.87rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 32px;
+  margin-bottom: 0;
+
+  border: 1px solid red;
+}

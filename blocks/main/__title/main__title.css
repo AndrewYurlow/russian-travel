@@ -1,0 +1,12 @@
+.main__title{
+  max-width: 720px;
+  font-family: 'Inter-SemiBold';
+  font-size: 6rem;
+  line-height: 1;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 56px;
+  margin-bottom: 0;
+
+  border: 1px solid red;
+}

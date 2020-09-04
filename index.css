@@ -9,3 +9,9 @@
 @import url(./blocks/lang/__item/lang__item.css);
 @import url(./blocks/lang/__button/lang__button.css);
 @import url(./blocks/lang/__button-label/lang__button-label.css);
+
+@import url(./blocks/main/main.css);
+@import url(./blocks/main/__title/main__title.css);
+@import url(./blocks/main/__description/main__description.css);
+@import url(./blocks/main/__image/main__image.css);
+@import url(./blocks/main/__caption/main__caption.css);

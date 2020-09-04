@@ -1,0 +1,13 @@
+.main__caption{
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-family: 'Inter-Regular';
+  font-size: 0.62rem;
+  line-height: 1.4;
+  color: #ffffff;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  align-self: flex-start;
+
+  border: 1px solid red;
+}
