@@ -26,3 +26,24 @@
 @import url(./blocks/gallery/gallery.css);
 @import url(./blocks/gallery/__list/gallery__list.css);
 @import url(./blocks/gallery/__image/gallery__image.css);
+
+@import url(./blocks/places/places.css);
+
+@import url(./blocks/article/article.css);
+@import url(./blocks/article/__title/article__title.css);
+@import url(./blocks/article/__image/article__image.css);
+@import url(./blocks/article/__website/article__website.css);
+@import url(./blocks/article/__link-sign/article__link-sign.css);
+@import url(./blocks/article/__link/article__link.css);
+@import url(./blocks/article/__text/article__text.css);
+@import url(./blocks/article/__paragraph/article__paragraph.css);
+
+@import url(./blocks/cover/cover.css);
+@import url(./blocks/cover/__link/cover__link.css);
+@import url(./blocks/cover/__title/cover__title.css);
+@import url(./blocks/cover/__subtitle/cover__subtitle.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__navigation/footer__navigation.css);
+@import url(./blocks/footer/__link/footer__link.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);

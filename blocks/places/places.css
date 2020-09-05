@@ -1,0 +1,8 @@
+.places{
+  width: calc(100% - 296px);
+  display: flex;
+  flex-direction: column;
+  margin-top: 92px;
+
+    border: 1px solid red;
+}

@@ -1,10 +1,11 @@
 .lang__button-label{
   display: inline-block;
   padding: 0;
-  line-height: 1.75rem;
+  line-height: 117%;
   cursor: pointer;
   user-select: none;
-  font-family: 'Inter-Regular';
+  font-family: 'Inter';
+  font-weight: 400;
   font-size: 24px;
   color: #FFFFFF;
 }

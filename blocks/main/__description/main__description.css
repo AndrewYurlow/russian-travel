@@ -1,8 +1,9 @@
 .main__description{
   max-width: 640px;
-  font-family: 'Inter-Regular';
-  font-size: 1.87rem;
-  line-height: 1.2;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
   text-align: center;
   color: #ffffff;
   margin-top: 32px;
