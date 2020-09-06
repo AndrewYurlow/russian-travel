@@ -10,5 +10,12 @@
   color: #ffffff;
   text-align: center;
   z-index: 1;
-  
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .cover__title{
+    max-width: 251px;
+    font-size: 32px;
+    line-height: 109%;
+    margin-bottom: 16px;
+  }
 }

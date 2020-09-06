@@ -33,8 +33,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  border: 1px solid red;
 }
 
 @media screen and (min-width: 1280px){
@@ -42,17 +40,17 @@
       max-width: 1280px;
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1280px){
+@media screen and (min-width: 1024px) and (max-width: 1279px){
   .page{
     max-width: 1280px;
 }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
   .page{
     max-width: 1024px;
 }
 }
-@media screen and (min-width: 320px) and (max-width: 768px){
+@media screen and (min-width: 320px) and (max-width: 767px){
   .page{
     max-width: 768px;
 }
