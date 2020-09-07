@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  grid-column: 2/3;
+  grid-row: 1/2;
 }
 @media screen and (min-width: 320px) and (max-width: 767px){
   .article__website{

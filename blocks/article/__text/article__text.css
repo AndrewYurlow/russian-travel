@@ -1,2 +1,11 @@
 .article__text{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .article__text{
+      grid-column: 1/2;
+      grid-row: 3/4;
+  }    
 }
