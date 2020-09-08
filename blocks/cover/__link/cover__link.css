@@ -1,0 +1,16 @@
+.cover__link{
+  display: block;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  max-width: 560px;
+  margin: 0 auto;
+}
+.cover__link:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 767px){
+  .cover__link{
+    max-width: 251px;
+  }
+}

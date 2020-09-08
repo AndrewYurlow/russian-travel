@@ -1,46 +1,8 @@
-@font-face{
-  font-family: 'Inter';
-  src: url("../../fonts/Inter-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-}
-
-@font-face{
-  font-family: 'Inter';
-  src: url("../../fonts/Inter-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-}
-
-@font-face{
-  font-family: 'Inter';
-  src: url("../../fonts/Inter-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-}
-
 .page{
   font-family: 'Inter', 'Arial', sans-serif;
   margin: auto;
   width: 100%;
+  min-width: 320px;
   background-color: #2A2C2F;
   display: flex;
   flex-direction: column;
@@ -63,7 +25,7 @@
     max-width: 1024px;
 }
 }
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .page{
     max-width: 768px;
 }

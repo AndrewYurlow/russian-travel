@@ -1,5 +1,7 @@
 .article__link-sign{
-  font-family: 'Inter';
+  margin: 0;
+  margin-bottom: 12px;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;

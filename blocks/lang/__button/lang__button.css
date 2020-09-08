@@ -1,7 +1,0 @@
-.lang__button{
-  display: none;
-}
-
-.lang__button:checked + .lang__button-label{
-  text-decoration: underline;
-}

@@ -1,6 +1,6 @@
 .article__title{
   margin: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 900;
   font-size: 72px;
   line-height: 106%;
@@ -16,8 +16,9 @@
     line-height: 110%;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .article__title{
+    margin: 0 16px;
     font-size: 32px;
     line-height: 109%;
   }
