@@ -1,6 +1,5 @@
 .cover__title{
-  position: relative;
-  margin: auto;
+  margin-top: 0;
   margin-bottom: 32px;
   max-width: 560px;
   font-family: 'Inter', 'Arial', sans-serif;
