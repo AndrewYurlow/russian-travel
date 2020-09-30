@@ -1,0 +1,22 @@
+.popup__description{
+  margin-left: 102px;
+  margin-bottom: 106px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 650px;
+}
+@media screen and (max-width: 1024px){
+  .popup__description{
+    margin-left: 51px;
+  }
+}
+@media screen and (max-width: 768px){
+  .popup__description{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 46px;
+  }
+}

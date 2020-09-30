@@ -10,14 +10,24 @@
   <div class="page">
     <header class="header">
       <img src="./image/__logo.svg" alt="лого" class="header__logo">
-      <ul class="lang">
-        <li class="lang__item">
-          <a href="#" class="lang__link lang__link_active">Ru</a>
-        </li>
-        <li class="lang__item">
-          <a href="#" class="lang__link">En</a>
-        </li>
-      </ul>
+      <nav class="header__navigation navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <button class="button-about" type="button">О проекте</button>
+          </li>
+          <li class="navigation__item">
+            <ul class="lang">
+              <li class="lang__item">
+                <a href="#" class="lang__link lang__link_active">Ru</a>
+              </li>
+              <li class="lang__item">
+                <a href="#" class="lang__link">En</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        
+      </nav>
     </header>
     <main class="main">
       <section class="lead">
@@ -151,6 +161,16 @@
       </nav>
       <p class="footer__copyright">&copy; 2020 Андрей Юрлов</p>
     </footer>
+    <section class="popup">
+      <div class="popup__container">
+        <img src="./image/close_btn.svg" alt="закрыть" class="popup__close-button">
+        <h2 class="popup__title">О проекте</h2>
+        <p class="popup__description">Путешествия по России это студенческий проект третьего спринта программы веб-разработчик. 
+          Его задача — отточить навык адаптивной вёрстки и работы с Фигмой. 
+          А этот попап — кейс для отработки практики 4-го спринта.</p>
+      </div>
+    </section>
   </div>
+  <script src="scripts/index.js"></script>
 </body>
 </html>

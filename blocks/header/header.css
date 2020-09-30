@@ -21,3 +21,9 @@
     margin-top: 16px;
   }
 }
+@media screen and (max-width: 375px){
+  .header{
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,8 +1,8 @@
-.lang__item:first-child{
+.navigation__item:first-child{
   margin-right: 18px;
 }
 @media screen and (max-width: 768px){
-  .lang__item:first-child{
+  .navigation__item:first-child{
     margin-right: 14px;
   }
 }
